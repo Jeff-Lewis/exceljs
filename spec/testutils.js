@@ -72,64 +72,69 @@ var utils = module.exports = {
       numFmt2: '[Green]#,##0 ;[Red](#,##0)'
     },
     fonts: {
-      arialBlackUI14: { name: 'Arial Black', family: 2, size: 14, underline: true, italic: true },
-      comicSansUdB16: { name: 'Comic Sans MS', family: 4, size: 16, underline: 'double', bold: true },
-      broadwayRedOutline20: { name: 'Broadway', family: 5, size: 20, outline: true, color: { argb:'FFFF0000'}}
+      arialBlackUI14: {name: 'Arial Black', family: 2, size: 14, underline: true, italic: true},
+      comicSansUdB16: {name: 'Comic Sans MS', family: 4, size: 16, underline: 'double', bold: true},
+      broadwayRedOutline20: {name: 'Broadway', family: 5, size: 20, outline: true, color: {argb: 'FFFF0000'}}
     },
     alignments: [
-      { text: 'Top Left', alignment: { horizontal: 'left', vertical: 'top' } },
-      { text: 'Middle Centre', alignment: { horizontal: 'center', vertical: 'middle' } },
-      { text: 'Bottom Right', alignment: { horizontal: 'right', vertical: 'bottom' } },
-      { text: 'Wrap Text', alignment: { wrapText: true } },
-      { text: 'Indent 1', alignment: { indent: 1 } },
-      { text: 'Indent 2', alignment: { indent: 2 } },
-      { text: 'Rotate 15', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 15 } },
-      { text: 'Rotate 30', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 30 } },
-      { text: 'Rotate 45', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 45 } },
-      { text: 'Rotate 60', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 60 } },
-      { text: 'Rotate 75', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 75 } },
-      { text: 'Rotate 90', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 90 } },
-      { text: 'Rotate -15', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: -55 } },
-      { text: 'Rotate -30', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: -30 } },
-      { text: 'Rotate -45', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: -45 } },
-      { text: 'Rotate -60', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: -60 } },
-      { text: 'Rotate -75', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: -75 } },
-      { text: 'Rotate -90', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: -90 } },
-      { text: 'Vertical Text', alignment: { horizontal: 'right', vertical: 'bottom', textRotation: 'vertical' } }
+      {text: 'Top Left', alignment: {horizontal: 'left', vertical: 'top'}},
+      {text: 'Middle Centre', alignment: {horizontal: 'center', vertical: 'middle'}},
+      {text: 'Bottom Right', alignment: {horizontal: 'right', vertical: 'bottom'}},
+      {text: 'Wrap Text', alignment: {wrapText: true}},
+      {text: 'Indent 1', alignment: {indent: 1}},
+      {text: 'Indent 2', alignment: {indent: 2}},
+      {text: 'Rotate 15', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 15}},
+      {text: 'Rotate 30', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 30}},
+      {text: 'Rotate 45', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 45}},
+      {text: 'Rotate 60', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 60}},
+      {text: 'Rotate 75', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 75}},
+      {text: 'Rotate 90', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 90}},
+      {text: 'Rotate -15', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: -55}},
+      {text: 'Rotate -30', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: -30}},
+      {text: 'Rotate -45', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: -45}},
+      {text: 'Rotate -60', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: -60}},
+      {text: 'Rotate -75', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: -75}},
+      {text: 'Rotate -90', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: -90}},
+      {text: 'Vertical Text', alignment: {horizontal: 'right', vertical: 'bottom', textRotation: 'vertical'}}
     ],
     namedAlignments: {
-      topLeft: { horizontal: 'left', vertical: 'top' },
-      middleCentre: { horizontal: 'center', vertical: 'middle' },
-      bottomRight: { horizontal: 'right', vertical: 'bottom' }
+      topLeft: {horizontal: 'left', vertical: 'top'},
+      middleCentre: {horizontal: 'center', vertical: 'middle'},
+      bottomRight: {horizontal: 'right', vertical: 'bottom'}
     },
     badAlignments: [
-      { text: 'Rotate -91', alignment: { textRotation: -91 } },
-      { text: 'Rotate 91', alignment: { textRotation: 91 } },
-      { text: 'Indent -1', alignment: { indent: -1 } },
-      { text: 'Blank', alignment: {  } }
+      {text: 'Rotate -91', alignment: {textRotation: -91}},
+      {text: 'Rotate 91', alignment: {textRotation: 91}},
+      {text: 'Indent -1', alignment: {indent: -1}},
+      {text: 'Blank', alignment: {}}
     ],
     borders: {
-      thin: { top: {style:'thin'}, left: {style:'thin'}, bottom: {style:'thin'}, right: {style:'thin'}},
-      doubleRed: { top: {style:'double', color: {argb:'FFFF0000'}}, left: {style:'double', color: {argb:'FFFF0000'}}, bottom: {style:'double', color: {argb:'FFFF0000'}}, right: {style:'double', color: {argb:'FFFF0000'}}},
+      thin: {top: {style: 'thin'}, left: {style: 'thin'}, bottom: {style: 'thin'}, right: {style: 'thin'}},
+      doubleRed: {top: {style: 'double', color: {argb: 'FFFF0000'}}, left: {style: 'double', color: {argb: 'FFFF0000'}}, bottom: {style: 'double', color: {argb: 'FFFF0000'}}, right: {style: 'double', color: {argb: 'FFFF0000'}}},
       thickRainbow: {
-        top: {style:'double', color: {argb:'FFFF00FF'}},
-        left: {style:'double', color: {argb:'FF00FFFF'}},
-        bottom: {style:'double', color: {argb:'FF00FF00'}},
-        right: {style:'double', color: {argb:'FF00FF'}},
-        diagonal: {style:'double', color: {argb:'FFFFFF00'}, up: true, down: true}
+        top: {style: 'double', color: {argb: 'FFFF00FF'}},
+        left: {style: 'double', color: {argb: 'FF00FFFF'}},
+        bottom: {style: 'double', color: {argb: 'FF00FF00'}},
+        right: {style: 'double', color: {argb: 'FF00FF'}},
+        diagonal: {style: 'double', color: {argb: 'FFFFFF00'}, up: true, down: true}
       }
     },
     fills: {
-      redDarkVertical: {type: 'pattern', pattern:'darkVertical', fgColor:{argb:'FFFF0000'}},
-      redGreenDarkTrellis: {type: 'pattern', pattern:'darkTrellis',
-        fgColor:{argb:'FFFF0000'}, bgColor:{argb:'FF00FF00'}},
-      blueWhiteHGrad: {type: 'gradient', gradient: 'angle', degree: 0,
-        stops: [{position:0, color:{argb:'FF0000FF'}},{position:1, color:{argb:'FFFFFFFF'}}]},
-      rgbPathGrad: {type: 'gradient', gradient: 'path', center:{left:0.5,top:0.5},
+      redDarkVertical: {type: 'pattern', pattern: 'darkVertical', fgColor: {argb: 'FFFF0000'}},
+      redGreenDarkTrellis: {
+        type: 'pattern', pattern: 'darkTrellis',
+        fgColor: {argb: 'FFFF0000'}, bgColor: {argb: 'FF00FF00'}
+      },
+      blueWhiteHGrad: {
+        type: 'gradient', gradient: 'angle', degree: 0,
+        stops: [{position: 0, color: {argb: 'FF0000FF'}}, {position: 1, color: {argb: 'FFFFFFFF'}}]
+      },
+      rgbPathGrad: {
+        type: 'gradient', gradient: 'path', center: {left: 0.5, top: 0.5},
         stops: [
-          {position:0, color:{argb:'FFFF0000'}},
-          {position:0.5, color:{argb:'FF00FF00'}},
-          {position:1, color:{argb:'FF0000FF'}}
+          {position: 0, color: {argb: 'FFFF0000'}},
+          {position: 0.5, color: {argb: 'FF00FF00'}},
+          {position: 1, color: {argb: 'FF0000FF'}}
         ]
       }
     }
@@ -189,10 +194,10 @@ var utils = module.exports = {
 
     types: ['whole', 'decimal', 'date', 'textLength'],
     values: {
-      whole: { v1: 1, v2: 10 },
-      decimal: { v1: 1.5, v2: 10.2 },
-      date: { v1: new Date(2015, 0, 1), v2: new Date(2016, 0, 1) },
-      textLength: { v1: 5, v2: 15 }
+      whole: {v1: 1, v2: 10},
+      decimal: {v1: 1.5, v2: 10.2},
+      date: {v1: new Date(2015, 0, 1), v2: new Date(2016, 0, 1)},
+      textLength: {v1: 5, v2: 15}
     },
     operators: ['between', 'notBetween', 'equal', 'notEqual', 'greaterThan', 'lessThan', 'greaterThanOrEqual', 'lessThanOrEqual'],
     create: function(type, operator) {
@@ -204,7 +209,7 @@ var utils = module.exports = {
         showErrorMessage: true,
         formulae: [this.values[type].v1]
       };
-      switch(operator) {
+      switch (operator) {
         case 'between':
         case 'notBetween':
           dataValidation.formulae.push(this.values[type].v2);
@@ -259,7 +264,7 @@ var utils = module.exports = {
     ws.getCell('B15').dataValidation = this.dataValidations.B15;
 
   },
-  
+
   checkDataValidationSheet: function(wb) {
     var ws = wb.getWorksheet('data-validations');
     expect(ws).to.not.be.undefined;
@@ -389,7 +394,7 @@ var utils = module.exports = {
     var sheetName;
     var checkFormulas, checkMerges, checkStyles, checkBadAlignments, checkSheetProperties, checkViews;
     var dateAccuracy;
-    switch(docType) {
+    switch (docType) {
       case 'xlsx':
         sheetName = 'blort';
         checkFormulas = true;
@@ -427,7 +432,7 @@ var utils = module.exports = {
     if (checkViews) {
       expect(wb.views).to.deep.equal([{x: 1, y: 2, width: 10000, height: 20000, firstSheet: 0, activeTab: 0, visibility: 'visible'}]);
     }
-    
+
     var ws = wb.getWorksheet(sheetName);
     expect(ws).to.not.be.undefined;
 
@@ -438,9 +443,9 @@ var utils = module.exports = {
       expect(ws.getRow(10).collapsed).to.equal(true);
       expect(ws.properties.outlineLevelCol).to.equal(1);
       expect(ws.properties.outlineLevelRow).to.equal(1);
-      expect(ws.properties.tabColor).to.deep.equal({argb:'FF00FF00'});
+      expect(ws.properties.tabColor).to.deep.equal({argb: 'FF00FF00'});
     }
-    
+
     expect(ws.getCell('A1').value).to.equal(7);
     expect(ws.getCell('A1').type).to.equal(Excel.ValueType.Number);
     expect(ws.getCell('B1').value).to.equal(utils.testValues.str);
@@ -578,7 +583,7 @@ var utils = module.exports = {
       // Sheet name stored in workbook. Not guaranteed here
       // expect(ws.name).to.equal('blort');
       ws.on('row', function(row) {
-        switch(row.number) {
+        switch (row.number) {
           case 1:
             expect(row.getCell('A').value).to.equal(7);
             expect(row.getCell('A').type).to.equal(Excel.ValueType.Number);
@@ -711,7 +716,7 @@ var utils = module.exports = {
 
     return deferred.promise;
   },
-  
+
   toISODateString: function(dt) {
     var iso = dt.toISOString();
     var parts = iso.split('T');
@@ -728,21 +733,21 @@ var utils = module.exports = {
         outlineLevelCol: 0,
         outlineLevelRow: 0
       },
-      
+
       addColumn: function(colNumber, defn) {
-        return this.columns[colNumber-1] = new Column(this, colNumber, defn);
+        return this.columns[colNumber - 1] = new Column(this, colNumber, defn);
       },
       getColumn: function(colNumber) {
-        var column = this.columns[colNumber-1] || this._keys[colNumber];
+        var column = this.columns[colNumber - 1] || this._keys[colNumber];
         if (!column) {
-          column = this.columns[colNumber-1] = new Column(this, colNumber);
+          column = this.columns[colNumber - 1] = new Column(this, colNumber);
         }
         return column;
       },
       getRow: function(rowNumber) {
-        var row = this.rows[rowNumber-1];
+        var row = this.rows[rowNumber - 1];
         if (!row) {
-          row = this.rows[rowNumber-1] = new Row(this, rowNumber);
+          row = this.rows[rowNumber - 1] = new Row(this, rowNumber);
         }
         return row;
       },
