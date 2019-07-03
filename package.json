@@ -45,7 +45,8 @@
     "moment": "2.11.2",
     "sax": "^1.2.1",
     "underscore": "1.4.4",
-    "unzip2": "^0.2.5"
+    "unzip2": "^0.2.5",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "chai": "*",
@@ -61,7 +62,9 @@
     "test": "npm run unit-test && npm run integration-test && npm run end-to-end-test",
     "unit-test": "mocha spec/unit --recursive",
     "integration-test": "mocha spec/integration --recursive",
-    "end-to-end-test": "mocha spec/end-to-end --recursive"
+    "end-to-end-test": "mocha spec/end-to-end --recursive",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "./excel.js",
   "files": [
@@ -70,5 +73,6 @@
     "LICENSE",
     "README.md",
     "MODEL.md"
-  ]
+  ],
+  "snyk": true
 }
