@@ -44,7 +44,7 @@
     "lodash": "^4.15.0",
     "moment": "2.11.2",
     "sax": "^1.2.1",
-    "underscore": "1.4.4",
+    "underscore": "1.12.1",
     "unzip2": "^0.2.5"
   },
   "devDependencies": {
